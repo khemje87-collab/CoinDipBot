@@ -157,3 +157,9 @@ while True:
     except Exception as e:
         print("Loop error:", e)
         time.sleep(10)
+if __name__ == "__main__":
+    print("🟢 CoinDip is running...")
+
+    while True:
+        check_prices()
+        time.sleep(300)  # 5 minutes
